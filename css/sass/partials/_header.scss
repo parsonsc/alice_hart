@@ -1,0 +1,97 @@
+// ALICE HART FOOD
+// HEADER STYLES
+
+header.site_header {
+	padding: 25px 2%;
+	width: 96%;
+	position: relative;
+	background: $white;
+}
+
+// SITE LOGO
+header.site_header a.site_logo {
+	float: left;
+	display: block;
+	width: 20%;
+	color: $black;
+}
+header.site_header a.site_logo h1 {
+	margin: 0;
+}
+// END LOGO
+
+// SITE NAV
+a.menu_button {
+	font-size: 20px;
+	color: $black;
+	float: right;
+}
+
+nav.site_nav {
+	float: right;
+	width: 26%;
+}
+nav.site_nav ul {
+	float: left;
+}
+nav.site_nav ul li {
+	display: block;
+	float: left;
+	text-align: center;
+}
+nav.site_nav ul li a {
+	color: $black;
+}
+// Social nav
+nav.site_nav ul.social_ul {
+	float: right;
+	margin: 0 2%;
+	padding: 0 5px;
+	width: 20%;
+	border-right: 1px solid $grey;
+  	border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+nav.site_nav ul.social_ul li {
+	padding: 0 8%;
+	font-size: 20px;
+}
+// End social nav
+nav.site_nav ul.page_ul {
+	width: 65%;
+	border-right: 1px solid $grey;
+  	border-right: 1px solid rgba(0, 0, 0, 0.15);
+  	opacity: 0;
+  	-o-transition: opacity 0.25s ease-in-out;
+  	-webkit-transition: opacity 0.25s ease-in-out;
+  	-moz-transition: opacity 0.25s ease-in-out;
+  	transition: opacity 0.25s ease-in-out;
+}
+nav.site_nav ul.page_ul.active {
+	display: block;
+	opacity: 1;
+}
+nav.site_nav ul.page_ul li {
+	padding: 0 3%;
+	position: relative;
+}
+nav.site_nav ul.page_ul li ul {
+	position: absolute;
+	top: 20px;
+	background: $white;
+	opacity: 0;
+  	-o-transition: opacity 0.25s ease-in-out;
+  	-webkit-transition: opacity 0.25s ease-in-out;
+  	-moz-transition: opacity 0.25s ease-in-out;
+  	transition: opacity 0.25s ease-in-out;
+}
+nav.site_nav ul.page_ul li ul li {
+	display: block;
+	float: none;
+	width: 100%;
+	padding: 10px 0;
+	text-align: left;
+}
+nav.site_nav ul.page_ul li:hover ul {
+	opacity: 1;
+}
+// END NAV

@@ -1,0 +1,71 @@
+// ALICE HART FOOD
+// FRAMEWORK STYLES
+
+
+// RESET STYLES
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.show_mobile {display: none;}
+.show_desktop {display: block;}
+html,
+body {
+	margin: 0;
+  	padding: 0;
+  	height: 100%;
+}
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+ul {
+ 	padding: 0;
+ 	margin: 0;
+} 
+iframe,
+img {
+	max-width: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+// END RESET STYLES
+
+
+.site_container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+	font-size: 14px;
+	padding-bottom: 342px;
+}
+.inner_content {
+	width: 94%;
+	margin: 0 auto;
+	position: relative;
+}

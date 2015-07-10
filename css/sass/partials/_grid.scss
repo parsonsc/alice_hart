@@ -1,0 +1,71 @@
+// ALICE HART FOOD
+// GRID STRUCTURE STYLES
+
+.grid {
+	position: relative;
+	overflow: hidden;
+	margin: 35px 0;
+	width: 100%;
+	background: $grey;
+}
+.grid img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.block {
+	width: 50%;
+  	float: left;
+  	display: block;
+  	overflow: hidden;
+}
+.block.hero {
+	width: 60%;  	
+}
+.block.side {
+	width: 40%;  	
+}
+.block.lower {
+	width: 100%;  	
+}
+.block article {	
+   	width: 100%;
+   	padding: 2px 2px 0;
+}
+.block.lower article{
+	width: 33.1%;  	
+	float: left;
+}
+.block article a {
+	background-size: cover;
+  	background-position: center center;
+	display: block;
+	height: 100%;
+	background: #fff;
+}
+@media screen and (min-width: 100em) {
+  /* 1600px */
+	.block article {	
+	   	height: 401px;
+	}
+	.block article.hero_block {
+		background: red;
+		height: 804px;
+	}
+
+}
+@media screen and (min-width: 75em) and (min-height: 56.25em) {
+  /* 1200px / 900px */
+
+}
+@media screen and (min-width: 87.5em) and (min-height: 56.25em) {
+  /* 1400px / 900px */
+
+}
+@media screen and (min-width: 75em) and (min-height: 56.25em) {
+  /* 1200px / 900px */
+
+}
+@media screen and (max-width: 42.5em) {
+  
+}
