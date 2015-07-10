@@ -18,23 +18,30 @@
   	float: left;
   	display: block;
   	overflow: hidden;
+  	padding: 0.5%;
 }
 .block.hero {
-	width: 60%;  	
+	width: 65.5%;
 }
 .block.side {
-	width: 40%;  	
+	width: 32%;  	
 }
 .block.lower {
 	width: 100%;  	
 }
 .block article {	
    	width: 100%;
-   	padding: 2px 2px 0;
+   	display: block;
+   	float: left;
 }
-.block.lower article{
-	width: 33.1%;  	
-	float: left;
+.block.side article {
+	padding-bottom: 2%;
+}
+.block.lower article {
+	width: 32.33333%;  	
+}
+.block.lower article {
+	padding-right: 1%;
 }
 .block article a {
 	background-size: cover;
@@ -50,7 +57,7 @@
 	}
 	.block article.hero_block {
 		background: red;
-		height: 804px;
+		height: 817px;
 	}
 
 }
